@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(218, 213, 213);
+}
+.App{
+    width: 600px;
+    border: 3px solid rgb(22, 22, 22);
+    margin: 100px 30%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    transform: translate(0%,40%);
+}
+.App h2{
+    color:rgb(151, 14, 9);
+    font-weight: bolder;
+}
+.App ul{
+    list-style:"⭐" ;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    margin: 20px;
+}
+.App input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.App button{
+     width: 150px;
+     height: 30px;
+     outline:0 ;
+
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    
+}
+
+.App ul li{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.diffstyle{
+    list-style: "✅";
+    text-decoration: line-through;
+}
+.div10{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
